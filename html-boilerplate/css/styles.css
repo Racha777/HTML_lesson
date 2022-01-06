@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 p{
     color: darkblue;
     font-family:'Times New Roman', Times, serif;
@@ -9,6 +13,22 @@ h3{
 }
 
 li{
-    color: yellow;
+    color: blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-one{
+    height: 60px;
+    width: 200px;
+    border: 10px solid yellow;
+    padding: 10px;
+    margin: -20px auto -20px;
+}
+
+.box-two{
+    height: 60px;
+    width: 500px;
+    border: 10px solid red;
+    padding: 10px;
+    margin: 20px;
 }
